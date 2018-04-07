@@ -1,14 +1,14 @@
 {
   "name": "my-money-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a backend for My Money App",
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon",
     "production": "pm2 start src/index.js --name my-money-backend"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node", "api", "mongoose", "express"],
+  "author": "Rafael Thayto",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
